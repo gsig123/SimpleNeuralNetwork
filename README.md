@@ -12,3 +12,7 @@ python simple_neural_network.py
 
 ## Structure 
 This is a super simple 2-layer Neural Network (input layer, hidden layer, output layer, weights). The activation function is a [Sigmoid function](https://en.wikipedia.org/wiki/Sigmoid_function), and the error function is a simple [Sum of Squares](https://hlab.stanford.edu/brian/error_sum_of_squares.html).
+
+
+## Issues 
+I ran into an issue with matplotlib on macOS. I managed to fix it by creating the file `~/.matplotlib/matplotlibrc` and adding the following line to it: `backend: TkAgg` ([Stack Overflow Thread](https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python)).
